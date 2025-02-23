@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{719D99B4-872C-4FA3-B10A-F2CC6C5A987A}</ProjectGuid>
+    <ProjectGuid>{79F7F825-E98E-4C44-AC2A-F4FA74E7AE02}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Neocart.Application</RootNamespace>
-    <AssemblyName>Neocart.Application</AssemblyName>
+    <RootNamespace>Neocart.Infrastructure</RootNamespace>
+    <AssemblyName>Neocart.Infrastructure</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,12 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Persistencia\ApplicationDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Persistencia\Repositorio\EmpresaRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DTOs\" />
-    <Folder Include="Interfaces\" />
+    <Folder Include="Migration\" />
+    <Folder Include="Persistencia\Map\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

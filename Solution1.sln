@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.35731.53
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neocart.Domain", "src\Neocart.Domain\Neocart.Domain.csproj", "{F92F8482-E175-49C4-982B-27EE4E22112A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neocart.Presentation", "src\Domain.Web\Neocart.Presentation.csproj", "{854A66AD-5089-4993-835D-B904851FF2DD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neocart.Application", "src\Neocart.Application\Neocart.Application.csproj", "{719D99B4-872C-4FA3-B10A-F2CC6C5A987A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neocart.Infrastructure", "src\Neocart.Infrastructure\Neocart.Infrastructure.csproj", "{79F7F825-E98E-4C44-AC2A-F4FA74E7AE02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neocart.Api", "src\Neocart.Api\Neocart.Api.csproj", "{5634B1FF-95FE-409B-B3BA-7C5602EF3CB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +21,18 @@ Global
 		{F92F8482-E175-49C4-982B-27EE4E22112A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92F8482-E175-49C4-982B-27EE4E22112A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92F8482-E175-49C4-982B-27EE4E22112A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{854A66AD-5089-4993-835D-B904851FF2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{854A66AD-5089-4993-835D-B904851FF2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{854A66AD-5089-4993-835D-B904851FF2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{854A66AD-5089-4993-835D-B904851FF2DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{719D99B4-872C-4FA3-B10A-F2CC6C5A987A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{719D99B4-872C-4FA3-B10A-F2CC6C5A987A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{719D99B4-872C-4FA3-B10A-F2CC6C5A987A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{719D99B4-872C-4FA3-B10A-F2CC6C5A987A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F7F825-E98E-4C44-AC2A-F4FA74E7AE02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F7F825-E98E-4C44-AC2A-F4FA74E7AE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F7F825-E98E-4C44-AC2A-F4FA74E7AE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F7F825-E98E-4C44-AC2A-F4FA74E7AE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5634B1FF-95FE-409B-B3BA-7C5602EF3CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5634B1FF-95FE-409B-B3BA-7C5602EF3CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5634B1FF-95FE-409B-B3BA-7C5602EF3CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5634B1FF-95FE-409B-B3BA-7C5602EF3CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

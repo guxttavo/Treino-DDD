@@ -42,9 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Entities\Empresa.cs" />
-    <Compile Include="Interfaces\IEmpresaRepository.cs" />
+    <Compile Include="Entidades\Base\EntidadeBase.cs" />
+    <Compile Include="Entidades\Empresa.cs" />
+    <Compile Include="Interfaces\Repositorio\IEmpresaRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\Servico\" />
+    <Folder Include="Recurso\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
